@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+label, input {
+    display: none;
+}
+.navbar {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+
+}
+.logo h1{
+ font-size: 36px;
+ color: white;
+}
+.navbar ul {
+    display: flex;
+    list-style: none;
+    margin-right: 100px;
+}
+.navbar li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    padding: 20px 35px;
+    font-weight: 600;
+    font-size: 20px;
+    transition: all .3s;
+}
+
+.navbar ul li{
+    transition: .3s;
+}
+
+#birinchi {
+    background-image: url(./bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.mask {
+    background-color: rgba(0, 0, 0, 0.333);
+}
+.navbar li :hover {
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+.top-nav {
+    border-bottom: 2px solid rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.621);
+}
+.mask{
+ background-color: rgb(0, 0, 0, 0.469);
+}
+
+.btn button{
+    padding: 12px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: .3s;
+}
+
+.btn button:first-child {
+    border: 2px solid rgb(255, 255, 255);
+    background-color: transparent;
+    color: white;
+}
+.btn button:first-child:hover {
+    background-color: white;
+    color: black;
+
+}
+
+.btn button:last-child {
+    border-color: white;
+} 
+.btn button:last-child:hover{
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+}
+
+.bannerH {
+    height: 700px;
+}
+.banner-info {
+color: white;
+}
+
+.banner-info h1{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.banner-info p {
+    margin-bottom: 15px;
+    line-height: 40px;
+    font-size: 24px;
+}
+
+.olchami h2 {
+    padding: 10px;
+}
+.olchami p {
+    padding: 10px;
+}
+
+.banner-info button {
+    padding: 10px 60px;
+    background-color: rgb(18, 18, 223);
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.banner-info button:hover {
+    background-color: white;
+    color: blue;
+}
+.lorem h1{
+    padding: 30px;
+}
+
+.row1{
+    display: flex;
+   }
+
+.iconcha {
+    color: blue;
+    font-size: 30px;
+    padding: 10px;
+}
+.button2 button{
+    width: 130px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    transition: .4s;
+   
+}
+.button2 button:hover{
+    background-color: white;
+    color: blue;
+}
+
+.balandlik {
+   top: 70px;
+}
+
+#uchunchi{
+    background-color: blue;
+    padding: 50px;
+    color: white;
+    margin-top: 50px;
+}
+#uchunchi h3{
+    font-size: 30px;
+    margin-bottom: 15px;
+    font-weight:300;
+}
+.nom3 h3{
+  margin-top: 20px;
+}
+.row333{
+    display: flex;
+}
+
+#tortinchi {
+    padding: 50px 0;
+}
+#tortinchi img {
+    width: 400px;
+}
+.pastki h1{
+    margin-bottom: 30px;
+}
+.circle{
+    padding: 0px;
+}
+.circle span {
+    border: 2px solid black;
+    border-radius: 50%;
+    font-size: 25px;
+    padding: 0px 8px;
+    margin-right: 15px;
+}
+.circle p:first-child span:last-child {
+    border: none;
+    color: blue;
+}
+#beshinchi {
+   background-color:#F4F7FC;
+   padding: 50px 0;
+}
+#beshinchi .title h1 {
+    margin-bottom: 15px;
+}
+#beshinchi button{
+    padding: 10px 60px;
+    background-color: rgb(18, 18, 223);
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    transition: .5s;
+}  
+
+#beshinchi button:hover {
+    background-color: rgb(207, 207, 207);
+    color: blue;
+}
+footer ul {
+    display: flex;
+    list-style: none;
+}
+footer {
+    padding: 30px 0;
+}
+footer ul li {
+    margin-right: 10px;
+}
+.right {
+    display: flex;
+    justify-content:flex-end;
+}
+.Bbottom {
+    border-bottom: 1px dashed rgb(67, 67, 67);
+}
+.p0 {
+    padding: 20px 0 !important;
+}
+footer ul img{
+    width: 20px;
+    height: 20px;
+}
+
+@media (max-width: 768px){
+
+    nav {
+        position: relative;
+        z-index: 20;
+        padding: 15px 0;
+    }
+
+   .navbar {
+       position: fixed;
+       width: 40vw;
+       height:100vh;
+       background-color: rgba(0, 0, 0, 0.512);
+       display: block;
+       top: 0;
+       right: -100%;
+       z-index: 19;
+       padding: 100px 0;
+       transition: 0.5s;
+   }
+   .navbar ul {
+       display: block;
+       text-align: center;
+       margin: 0;
+   }
+   .navbar ul li {
+       margin: 25px 0;
+   }
+
+    .btn{
+        text-align: center;
+        
+    }
+    label{
+        display: block;
+        cursor: pointer;
+    }
+    label span{
+        display: block;
+        width: 40px;
+        height: 4px;
+        margin: 5px;
+        background-color: white;
+        transition: .4s;
+    }
+
+    label span:first-child {
+        transform-origin: left;
+    }
+
+    label span:last-child {
+        transform-origin: left;
+    }
+
+    input:checked ~ .navbar {
+        right: 0;
+        z-index: 18;
+    }
+    input:checked ~ label{
+        z-index: 21;
+    }
+
+    input:checked ~ label span:first-child{
+        transform:rotate(45deg) translateY(-6.5px)
+    }
+
+    input:checked ~ label span:last-child{
+        transform:rotate(-45deg) translateY(6.5px)
+    }
+
+    input:checked ~ label span:nth-child(2) {
+        opacity: 0;
+    }
+}
